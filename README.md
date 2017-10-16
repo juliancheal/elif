@@ -1,24 +1,24 @@
-= Read Me
+# Read Me
 
 by James Edward Gray II
 
-== Description
+## Description
 
 Welcome to Elif.
 
-This library is an enhanced version of my solution to Ruby Quiz #64.  The code is a port File::ReadBackwards, the Perl module by Uri Guttman, but the interface has been updated to feel like Ruby.
+This library is an enhanced version of my solution to Ruby Quiz [64](http://rubyquiz.com/quiz64.html).  The code is a port `File::ReadBackwards`, the Perl module by Uri Guttman, but the interface has been updated to feel like Ruby.
 
 Elif works like a File object used in line by line reading.  The only difference is that the lines will come in reverse order.  This can be useful in parsing log files, where the interesting information is usually at the end of the file.
 
-== Documentation
+## Documentation
 
 See Elif for documentation.
 
-== Installing
+## Installing
 
 See the INSTALL file for instructions.
 
-== Questions and/or Comments
+## Questions and/or Comments
 
-Feel free to email {James Edward Gray II}[mailto:james@grayproductions.net] with
+Feel free to create a Github issue with
 any questions.
