@@ -1,0 +1,35 @@
+= Installing Elif
+
+RubyGems is the preferred easy install method for Elif.  However, you can 
+install Elif manually as described below.
+
+== Installing the Gem
+
+Elif is intended to be installed via the 
+RubyGems[http://rubyforge.org/projects/rubygems/] system.  To get the latest
+version, simply enter the following into your command prompt:
+
+	$ sudo gem install elif
+
+You must have RubyGems[http://rubyforge.org/projects/rubygems/] installed for
+the above to work.
+
+== Installing Manually
+
+Download the latest version of Elif from the
+{RubyForge project page}[http://rubyforge.org/frs/?group_id=2684].  Navigate to
+the root project directory and enter:
+
+	$ sudo ruby setup.rb
+
+== Running the Tests
+
+If you would like to run Elif's test suite on your system before installing and
+you have Rake installed, just issue the following command from the root of
+the project directory:
+
+  $ rake
+
+If you do not have rake, use the following command instead:
+
+  $ ruby -I lib:test test/ts_all.rb
